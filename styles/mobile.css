@@ -56,6 +56,9 @@
     border-bottom:none;
     background-color: rgba(0, 0, 0, 0.5);
 }
+#header__pc .menu__mobile .list__menu .item-menu:last-child:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
 #header__pc .menu__mobile .list__menu .item-menu:last-child i{
     position: absolute;
     top: 20%;
