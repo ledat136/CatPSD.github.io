@@ -1,0 +1,22 @@
+.nav__wrap{
+    background-color: rgb(56, 56, 56);
+}
+.nav__top{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__wrap a{
+    color: #ccc;
+}
+.nav__left , .nav__list {
+    display: flex;
+}
+.nav__left #mail{
+    margin-right: 15px;
+}
+.nav__right .nav__list .nav__list-item{
+    padding: 0 10px;
+    border-right: 1px solid rgb(66, 66, 66);
+}

@@ -1,0 +1,75 @@
+#footer{
+    background-color: #383838;
+}
+#footer .row .h2_title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+#footer .row .sp_1{
+    color: #777777;
+}
+#footer .row .recent-post li{
+    border-bottom: 1px solid #40bea7;
+    padding: 10px 0px;
+}
+#footer .row .recent-post li:last-child{
+    border-bottom: none;
+}
+#footer .row .recent-post li .calendar-sale{
+    text-align: center;
+    border: 2px solid #40bea7;
+    color: #fff;
+    padding: 0px 8px;
+}
+#footer .row .recent-post li .calendar-sale .date-sale{
+    border-bottom: 1px solid #40bea7;
+    font-size: 18px;
+    font-weight: 600;
+}
+#footer .row .recent-post li .calendar-sale .month-sale{
+    font-size: 10px;
+    font-weight: 600;
+}
+#footer .row .recent-post li > p{
+    color: #787878;
+    padding-left: 8px;
+}
+#footer .row .flicks ul.list-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer .row .flicks ul.list-img li{
+    width: 33%;
+}
+#footer .row .flicks ul.list-img li img{
+    width: 100%;
+}
+#footer .logo_footer-center{
+    position: relative;
+}
+#footer .logo_footer-center .logo-bottom{
+    position: relative;
+    text-align: center;
+}
+#footer .logo_footer-center .logo-bottom:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 18px;
+    width: 37%;
+    height: 1px;
+    background-color: #787878;
+}
+#footer .logo_footer-center .logo-bottom:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 37%;
+    height: 1px;
+    background-color: #787878;
+}
+#footer .list_thett li{
+    margin: 0 10px;
+}

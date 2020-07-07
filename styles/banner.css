@@ -1,0 +1,34 @@
+#banner img{
+    width: 100%;
+}
+#banner .image{
+    position: relative;
+}
+#banner .image .title_img{
+    position: absolute;
+    top: 15%;
+    left: 9%;
+}
+#banner .image .title_img h1{
+    font-size: 3.5em;
+    font-weight: 700;
+}
+#banner .image .title_img .btn_view{
+    margin-top: 40px;
+}
+#banner .image .title_img .btn_view button{
+    width: 160px;
+    height: 50px;
+}
+#banner .image .title_img .btn_view button:last-child{
+    border: 2px solid #40bea7;
+    background-color: #e6e7e7;
+    color: #3f3f3f!important;
+}
+#banner .image .title_img .btn_view button:last-child a{
+    color: #3f3f3f!important;
+}
+#banner .image .title_img .btn_view button a{
+    color: #fff;
+    font-weight: 600;
+}

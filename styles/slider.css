@@ -1,0 +1,47 @@
+.owl-carousel .owl-nav{
+    display: block!important;
+}
+.owl-theme .owl-nav [class*=owl-] {
+    margin: 0;
+}
+.ul_carousel > .owl-nav > .owl-prev{
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.ul_carousel .owl-nav .owl-next{
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+.owl-carousel .owl-nav > button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc!important;
+    background-color: #f7f7f7!important;
+    color: #000;
+}
+.owl-carousel .owl-nav > button span{
+    color: #000;
+}
+.img_carousel .owl-nav .owl-prev ,
+.img_carousel .owl-nav .owl-next
+{
+    top: -35px;
+}
+.product .product__left .box__product .owl-prev,
+.product .product__left .box__product .owl-next
+{
+    position: absolute!important;
+    bottom: 0!important;
+}
+.product .product__left .box__product .owl-prev{
+    left: 35%;
+}
+.product .product__left .box__product .owl-next{
+    right: 35%;
+}
+.product .product__left .owl-item img{
+    width: auto;
+    margin: 0 auto;
+}
