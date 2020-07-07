@@ -211,6 +211,7 @@
 }
 .product .product__right .product__item-wrapp .box-img{
     position: relative;
+    background-color: #f8f8f8;
 }
 .product .col_img-sale img{
     width: 100%;
