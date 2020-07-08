@@ -35,7 +35,7 @@ $(document).ready(function(){
     //       }
     // })
     //sticly
-    $('#banner').waypoint(
+    $('#header__pc').waypoint(
         function(direction){
             if(direction == "down"){
                 $('#header__pc').addClass('sticky');
@@ -98,6 +98,12 @@ $(document).ready(function(){
         video_modal.show();
     });
 
+    //MOBILE
+    var item_menu_mb = $(".show__sub-menu");
+    item_menu_mb.click(function(){
+        $(this).toggleClass('rotate');
+        $(this).next('.sub-menu').slideToggle();
+    })
 });
 function changeProductList(type,elment){
     let tabs = document.getElementsByClassName('tab-item');

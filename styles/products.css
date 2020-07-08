@@ -24,7 +24,7 @@
 }
 .product .product__left .box__product{
     border: 1px solid #e6e6e6;
-    padding: 0 15px;
+    padding: 0px 15px 15px 15px;
 }
 .product .product__left .box__product  .p_1{
     max-height: 190px;
@@ -75,16 +75,16 @@
 }
 .product .product__item .info__product .category__product{
     color: #cccc;
-    font-size: 13px;
+    font-size: 15px;
 }
 .product .product__item .info__product .name__product{
     color: #535353;
-    font-size: 14px;
+    font-size: 15px;
 }
 .product .product__item .info__product .price__product{
     color: #3f3f3f;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
 }
 .product .product__left .box-sale img{
     width: 100%;
