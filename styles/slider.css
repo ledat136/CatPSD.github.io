@@ -29,19 +29,16 @@
 {
     top: -35px;
 }
-.product .product__left .box__product .owl-prev,
-.product .product__left .box__product .owl-next
-{
-    position: absolute!important;
-    bottom: 0!important;
-}
-.product .product__left .box__product .owl-prev{
-    left: 35%;
-}
-.product .product__left .box__product .owl-next{
-    right: 35%;
+.product .product__left .box__product  button{
+    margin-right: 8px;
 }
 .product .product__left .owl-item img{
     width: auto;
     margin: 0 auto;
+}
+.product .product__left .owl-nav{
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
 }

@@ -11,8 +11,9 @@ a{text-decoration: none!important;}
 .mg{margin: 0!important;}
 .item_1{color: #b8b8b8;font-weight: 600;}
 .item_2{color: #3f3f3f;font-weight: 600;}
-.mg-top{margin-top: 20px;}
+.mg-15{margin: 15px 0px;}
 .pad{padding: 10px 0;}
+.pad-15{padding: 15px 0px;}
 .pad-30{padding: 30px 0;}
 input:focus , button:focus{
     border: none;
@@ -22,6 +23,8 @@ input:focus , button:focus{
 .video{
     position: relative;
     text-align: center;
+    /* background: url("../image/products/img_45.png") no-repeat;
+    background-size: 100% 100%; */
 }
 .video .text-vd{
     position: absolute;

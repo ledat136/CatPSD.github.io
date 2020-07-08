@@ -7,7 +7,6 @@
 #banner .image .title_img{
     position: absolute;
     top: 15%;
-    left: 9%;
 }
 #banner .image .title_img h1{
     font-size: 3.5em;
@@ -19,6 +18,8 @@
 #banner .image .title_img .btn_view button{
     width: 160px;
     height: 50px;
+    margin-right: 10px;
+    border-width: 0;
 }
 #banner .image .title_img .btn_view button:last-child{
     border: 2px solid #40bea7;
@@ -31,4 +32,5 @@
 #banner .image .title_img .btn_view button a{
     color: #fff;
     font-weight: 600;
+    display: block;
 }

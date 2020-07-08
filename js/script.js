@@ -75,7 +75,7 @@ $(document).ready(function(){
         margin:10,
         dots:false,
         nav:true,
-        autoplay:1000,
+        // autoplay:1000,
         responsive:{
             0:{
                 items:1
